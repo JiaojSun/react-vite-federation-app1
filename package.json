@@ -9,7 +9,8 @@
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "lint:prettier": "prettier -c --write \"src/**/*\"",
     "lint:js:fix": "eslint --ext .js,.jsx,.ts,.tsx ./src --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": "eslint --ext .js,.jsx,.ts,.tsx",
