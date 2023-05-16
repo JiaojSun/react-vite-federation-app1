@@ -12,7 +12,7 @@ export default defineConfig({
     federation({
       name: 'app',
       remotes: {
-        shared: 'http://localhost:5000/assets/shared.js'
+        shared: 'http://localhost:5001/assets/shared.js'
       },
       shared: ['react']
     })
@@ -29,7 +29,7 @@ export default defineConfig({
   },
   preview: {
     host: 'localhost',
-    port: 5001,
+    port: 5000,
     strictPort: true
   },
   build: {
