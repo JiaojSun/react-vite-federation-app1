@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "baseUrl": "./src",
-    "declarationDir": "build",
+    "baseUrl": "./",
+    "paths": {
+      "src": ["./src/"]
+    },
+    // "declaration": true,
+    // "baseUrl": "./src",
+    // "declarationDir": "build",
     "module": "esnext",
     "target": "ES2019",
     "lib": ["es6", "dom", "dom.iterable", "es2016", "es2017", "ES2019"],
